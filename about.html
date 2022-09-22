@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<title>Hayden Burnell Portfolio</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<script src="js/main.js" defer>
+		</script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.mySlides {display:none;}
+</style>
+
+	<h1 class="hidden">Home Page</h1>
+
+<div id="container">
+
+			<header class="mainHeader">
+
+			<div class="logo">
+				<a href="index.html">
+				<img src="assets/logo_svg2.svg" alt="Website Logo" class="logo">
+				</a>
+			</div>
+
+			<nav class="navbar">
+			<div class="brand-title"></div>
+			<a href="#" class="toggle-button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+				</a>
+			<div class="navbar-links">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="portfolio.html">PORTFOLIO</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+			</div>
+		</nav>
+			</header>
+
+
+	<div class="aboutBody">
+			<main>
+
+
+
+
+				<h2 class="w3-center"><span>All About Me!</span></h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="images/me.png" style="width:100%">
+  <img class="mySlides" src="images/me2.png" style="width:100%">
+  <img class="mySlides" src="images/me3.png" style="width:100%">
+  <img class="mySlides" src="images/me4.png" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+	<div class="about">
+  <div class="aboutText">
+
+
+    <p>I have always had a passion for technology! I remember back in elementary school, filming and editing mini stick hockey videos with Windows Movie Maker! I am glad that I have the pleasure of going to school to dive deeper into computer applications!
+<br>
+<br>
+	My main focuses are Front-End Development as well as Graphic Design. I enjoy using multiple code editors such as Dreamweaver, Atom, Sublime, and Visual Studio. For the design aspect, I use different Applications in Adobe Suite, such as Illustrator, Photoshop, Premiere, After Effects, and XD.
+<br>
+<br>
+	When it comes to Web Design, I am a visual learner. I like to design the webpages first in XD or Illustrator before I even open the code editor.
+<br>
+<br>
+	I recently started up a <a href="https://www.redbubble.com/people/HobsDesigns/shop">RedBubble</a> account where I post my latest designs! Click to check it out!
+<br>
+<br>
+Thank you for checking out my Portfolio! Please feel free to download my resume off of my home page! If you have any questions at all or if you are interested in working with me, please fill out the form on the contact page and I will respond as soon as possible!
+<br>
+<br>
+Cheers,
+<br>
+<br>
+<br>
+-Hayden</p>
+
+
+  </div>
+</div>
+</main>
+
+
+
+
+<footer class="mainFooter">
+
+	<nav id="footerNav">
+		<h2 class="hidden">Main Navigation</h2>
+
+		<link rel="stylesheet" class="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+						<nav id="icons">
+						<h2 class="hidden">Social Media</h2>
+							<ul>
+
+					<li><a href="https://www.facebook.com/hayden.burnell.3" class="fa fa-facebook"></a></li>
+					<li><a href="https://www.twitter.com/haydenburnell2" class="fa fa-twitter"></a></li>
+					<li><a href="https://www.instagram.com/hburnell2" class="fa fa-instagram"></a></li>
+					<li><a href="https://www.linkedin.com/in/hayden-burnell-04a1a0231/" class="fa fa-linkedin"></a></li>
+					<li><a href="https://github.com/hburne11" class="fa fa-github"></a></li>
+
+					</ul>
+					</nav>
+
+	</nav>
+
+</footer>
+
+
+</div>
+</div>
+</body>
+
+</html>
