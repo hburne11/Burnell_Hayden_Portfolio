@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<title>Hayden Burnell Portfolio</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<script src="js/main.js" defer>
+		</script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.mySlides {display:none;}
+</style>
+
+	<h1 class="hidden">Portfolio Page</h1>
+
+<div id="container">
+
+			<header class="mainHeader">
+
+			<div class="logo">
+				<a href="index.html">
+				<img src="assets/logo_svg2.svg" alt="Website Logo" class="logo">
+				</a>
+			</div>
+
+			<nav class="navbar">
+			<div class="brand-title"></div>
+			<a href="#" class="toggle-button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+				</a>
+			<div class="navbar-links">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="portfolio.html">PORTFOLIO</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+			</div>
+		</nav>
+			</header>
+
+				<div class="portBody">
+			<main>
+
+				<h2 class="w3-center"><span>My First Portfolio Feature- CHD Awareness Campaign</span></h2>
+
+<div class="w3-content w3-display-container">
+	<img class="mySlides" src="images/heart1.svg" style="width:100%">
+	<img class="mySlides" src="images/heart2.svg" style="width:100%">
+	<img class="mySlides" src="images/heart3.svg" style="width:100%">
+	<img class="mySlides" src="images/heart4.svg" style="width:100%">
+	<img class="mySlides" src="images/heart6.png" style="width:100%">
+
+
+	<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+	<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<div class="port">
+<div class="portText">
+
+
+	<p>A survivor myself, I'm trying my best to raise awareness for this unfortunate disease. This brand of my creation is designed specifically for those who have struggled, or anyone in their lives who have had multiple surgeries, transplants, hospital overnights, or the fear of losing a loved one. <br><br>The slideshow above includes several examples of my designs. For every sale I make, 100% of the proceeds are donated to The Hospital for Sick Children in Toronto, my childhood hospital. Help me spread the word about #1in100 CHD Awareness.<br> <br>Much Love :)</p>
+
+</div>
+</div>
+
+<h2 class="w3-center"><span>My Second Portfolio Feature- Colour Slider w/HTML, CSS, and JavaScript</span></h2>
+
+<div class="parent2">
+	<div><img src="images/colour1.png" alt="" height="220" width="420"> <p class="parentText">HTML</p> </div>
+	<div><img src="images/colour7.png" alt="" height="220" width="420"> <p class="parentText">CSS</p> </div>
+	<div><img src="images/colour5.png" alt="" height="220" width="420"> <p class="parentText">JavaScript</p> </div>
+	<div> <video src="images/colour6.mp4" height="230" width="430" controls></video> <p class="parentText">Final Result!</p> </div>
+
+
+</div>
+
+<h2 class="w3-center"><span>Cinema 4D/After Effects Projects</span></h2>
+
+<div class="parent">
+	<div><img src="images/port9.jpg" alt="" height="220" width="420"> <p class="parentText">Living Room 3D modelled and texturized in Cinema 4D</p> </div>
+	<div><img src="images/port1.jpg" alt="" height="220" width="420"> <p class="parentText">Hotel Room 3D modelled and texturized in Cinema 4D</p> </div>
+	<div> <video src="images/port10.mp4" height="230" width="430" controls></video> <p class="parentText2">Commercial for Nickelodeon completed in After Effects</p></div>
+	<div> <video src="images/port11.mp4" height="230" width="430" controls></video> <p class="parentText">A Morphing commercial for kids to eat healthier, completed with Cinema 4D and After Effects.</p> </div>
+	<div> <video src="images/port12.mp4" height="230" width="430" controls></video> <p class="parentText2">Sportsnet Intro- Everything 3D Modelled from scratch, all custom textures and camera movements done in Cinema 4D. Editing completed in After Effects.</p> </div>
+	<div> <video src="images/port14.mp4" height="230" width="430" controls></video> <p class="parentText">Cosmetics Commercial- Created in After Effects</p> </div>
+
+</div>
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+	showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+	var i;
+	var x = document.getElementsByClassName("mySlides");
+	if (n > x.length) {slideIndex = 1}
+	if (n < 1) {slideIndex = x.length}
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+	x[slideIndex-1].style.display = "block";
+}
+</script>
+
+			</main>
+
+
+
+
+
+			<footer class="mainFooter">
+
+				<nav id="footerNav">
+					<h2 class="hidden">Main Navigation</h2>
+
+					<link rel="stylesheet" class="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+									<nav id="icons">
+									<h2 class="hidden">Social Media</h2>
+										<ul>
+
+								<li><a href="https://www.facebook.com/hayden.burnell.3" class="fa fa-facebook"></a></li>
+								<li><a href="https://www.twitter.com/haydenburnell2" class="fa fa-twitter"></a></li>
+								<li><a href="https://www.instagram.com/hburnell2" class="fa fa-instagram"></a></li>
+								<li><a href="https://www.linkedin.com/in/hayden-burnell-04a1a0231/" class="fa fa-linkedin"></a></li>
+								<li><a href="https://github.com/hburne11" class="fa fa-github"></a></li>
+
+								</ul>
+								</nav>
+
+				</nav>
+
+			</footer>
+	</div>
+
+			</div>
+					</div>
+				  </div>
+				</div>
+
+
+	</body>
+		</html>
