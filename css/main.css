@@ -6,40 +6,35 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1400' preserveAspectRatio='none' viewBox='0 0 1920 1400'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1920' height='1400' x='0' y='0' fill='url(%23SvgjsLinearGradient1037)'%3e%3c/rect%3e%3cpath d='M192 1400L1592 0L2013.5 0L613.5 1400z' fill='url(%23SvgjsLinearGradient1038)'%3e%3c/path%3e%3cpath d='M1866 1400L466 0L140.5 0L1540.5 1400z' fill='url(%23SvgjsLinearGradient1039)'%3e%3c/path%3e%3cpath d='M1065.9566626100825 1400L1920 545.9566626100825L1920 1400z' fill='url(%23SvgjsLinearGradient1038)'%3e%3c/path%3e%3cpath d='M0 1400L854.0433373899175 1400L 0 545.9566626100825z' fill='url(%23SvgjsLinearGradient1039)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1920' height='1400' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1037'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(95%2c 165%2c 255%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1038'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1039'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+
 }
 
 #container
 {
-
+	
 	max-width: 1920px;
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1400' preserveAspectRatio='none' viewBox='0 0 1920 1400'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1920' height='1400' x='0' y='0' fill='url(%23SvgjsLinearGradient1037)'%3e%3c/rect%3e%3cpath d='M192 1400L1592 0L2013.5 0L613.5 1400z' fill='url(%23SvgjsLinearGradient1038)'%3e%3c/path%3e%3cpath d='M1866 1400L466 0L140.5 0L1540.5 1400z' fill='url(%23SvgjsLinearGradient1039)'%3e%3c/path%3e%3cpath d='M1065.9566626100825 1400L1920 545.9566626100825L1920 1400z' fill='url(%23SvgjsLinearGradient1038)'%3e%3c/path%3e%3cpath d='M0 1400L854.0433373899175 1400L 0 545.9566626100825z' fill='url(%23SvgjsLinearGradient1039)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1920' height='1400' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1037'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(95%2c 165%2c 255%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1038'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1039'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+	min-height: 1000px;
 
 }
 
 
 
 .logo {
-	position: relative;
-	display: block;
-	width: 25%;
+	display: flex;
+	position: absolute;
+	width: 35%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 @media(max-width: 1280px)  {
 
-	.logo{
-		position: relative;
-		display: block;
-		width: 35%;
-		margin-left: auto;
-		margin-right: auto;
-		
-	}
+	
 }
 
 .logo img{
-padding-top: 40px;
+margin: 40px;
 }
 
 .logo:hover{
@@ -48,25 +43,23 @@ padding-top: 40px;
 
 .mainHeader{
 	
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1400' preserveAspectRatio='none' viewBox='0 0 1920 1400'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1920' height='1400' x='0' y='0' fill='url(%23SvgjsLinearGradient1037)'%3e%3c/rect%3e%3cpath d='M192 1400L1592 0L2013.5 0L613.5 1400z' fill='url(%23SvgjsLinearGradient1038)'%3e%3c/path%3e%3cpath d='M1866 1400L466 0L140.5 0L1540.5 1400z' fill='url(%23SvgjsLinearGradient1039)'%3e%3c/path%3e%3cpath d='M1065.9566626100825 1400L1920 545.9566626100825L1920 1400z' fill='url(%23SvgjsLinearGradient1038)'%3e%3c/path%3e%3cpath d='M0 1400L854.0433373899175 1400L 0 545.9566626100825z' fill='url(%23SvgjsLinearGradient1039)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1920' height='1400' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1037'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(95%2c 165%2c 255%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1038'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1039'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
 
 }
 
 .navbar{
 	
 	
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1400' preserveAspectRatio='none' viewBox='0 0 1920 1400'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1920' height='1400' x='0' y='0' fill='url(%23SvgjsLinearGradient1037)'%3e%3c/rect%3e%3cpath d='M192 1400L1592 0L2013.5 0L613.5 1400z' fill='url(%23SvgjsLinearGradient1038)'%3e%3c/path%3e%3cpath d='M1866 1400L466 0L140.5 0L1540.5 1400z' fill='url(%23SvgjsLinearGradient1039)'%3e%3c/path%3e%3cpath d='M1065.9566626100825 1400L1920 545.9566626100825L1920 1400z' fill='url(%23SvgjsLinearGradient1038)'%3e%3c/path%3e%3cpath d='M0 1400L854.0433373899175 1400L 0 545.9566626100825z' fill='url(%23SvgjsLinearGradient1039)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1920' height='1400' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1037'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(95%2c 165%2c 255%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1038'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1039'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
 	list-style:none;
     margin:0;
     padding:0;
     text-align:center;
-	margin-top: 40px;
+
 	
 }
 
 .brand-title {
 	font-size: 1.5rem;
-	margin: .5rem;
+	
 }
 
 .navbar-links ul li{
@@ -78,7 +71,7 @@ padding-top: 40px;
  --button_outline_color: #000000;
  font: 18px "Segoe UI", Arial, sans-serif;
  font-weight: bold;
- margin-left: 20px;
+ margin-left: 40px;
  border: none;
  border-radius: var(--button_radius);
  background: var(--button_outline_color);
@@ -98,6 +91,10 @@ padding-top: 40px;
 	transition: transform 0.1s ease;
 	list-style-type: none;
 	text-decoration: none;
+	margin-top: 94px;
+
+
+
 
 }
 
